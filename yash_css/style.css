@@ -1,0 +1,52 @@
+.section1{
+    border: 1px solid lightgray;
+    height: 650px;
+    width: 350px;
+}
+.section2{
+    border: 1px solid lightgray;
+    height: 70px;
+    width: 350px;
+}
+.txt1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: gray;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.txt2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(91, 91, 91);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 0.2;
+}
+
+.btn1{
+    height: 30px;
+    width: 250px;
+    background-color: rgb(0, 149, 246);
+    border: 0px;
+    font-size: 18px;
+    border-radius: 8px;
+    
+}
+.input-fields{
+    height: 30px;
+    width: 270px;
+    border: 0px;
+    background-color: rgb(246, 246, 246);
+}
+.btn2{
+    height: 30px;
+    width: 250px;
+    background-color: #5aa7ff;
+    border: 0px;
+    font-size: 18px;
+    border-radius: 8px;
+    
+}
+#log1{
+    text-decoration: none;
+}
