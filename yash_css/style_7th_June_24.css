@@ -1,0 +1,10 @@
+#body{
+    background-image: linear-gradient(to bottom, white, rgb(42, 38, 38));
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#img5{
+    width: 100%;
+    height: 1000px;
+    background-blend-mode: multiply;
+}
