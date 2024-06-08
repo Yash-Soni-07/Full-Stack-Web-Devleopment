@@ -4,18 +4,22 @@
 
 }
 .r2{
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
     border: 1px;
-    background-color: rgb(30, 30, 30);
+    background-color: rgb(147, 71, 218);
     display: inline-block;
     margin: -2px;
+    padding: 12.5px;
+    box-sizing: border-box;
 }
 .r1{
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
     border: 1px;
-    background-color: rgb(191, 168, 34);
+    background-color: rgb(230, 199, 199);
     display: inline-block;
     margin: -2px;
+    padding: 12.5px;
+    box-sizing: border-box;
 }
