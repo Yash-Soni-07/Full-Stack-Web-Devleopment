@@ -1,0 +1,21 @@
+#main-div{
+    display: inline-block;
+    padding: 2px;;
+
+}
+.r2{
+    height: 100px;
+    width: 100px;
+    border: 1px;
+    background-color: rgb(30, 30, 30);
+    display: inline-block;
+    margin: -2px;
+}
+.r1{
+    height: 100px;
+    width: 100px;
+    border: 1px;
+    background-color: rgb(191, 168, 34);
+    display: inline-block;
+    margin: -2px;
+}
