@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Flex</title>
+    <style>
+        body{
+            background-color: bisque;
+        }
+        .container{
+            width: 90%;
+            /* height: 500px; */
+            border: 1px solid black;
+            margin: auto;
+            font-size: 30px;
+        }
+        .row{
+            border: 2px solid red;
+            display: flex;
+            flex-direction: row;
+        }
+        div[class*='box']{
+            width: 100px;
+            height: 100px;
+            border: 3px dashed green;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="box-1">box 1</div>
+            <div class="box-2">box 2</div>
+            <div class="box-3">box 3</div>
+        </div>
+    </div>
+</body>
+</html>
