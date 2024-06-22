@@ -15,25 +15,104 @@
             margin: auto;
             font-size: 30px;
         }
-        .row{
-            border: 2px solid red;
-            display: flex;
-            flex-direction: row;
-        }
-        div[class*='box']{
+        div[class*='-']{
             width: 100px;
             height: 100px;
             border: 3px dashed green;
+        }
+        .row1{
+            border: 2px solid red;
+            height: 400px;
+            display: flex;
+            flex-direction: row;
+        }
+        .row2{
+            border: 2px solid red;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+        }
+        .row3{
+            border: 2px solid red;
+            height: 400px;
+            display: flex;
+            justify-content:space-between;
+        }
+        .row4{
+            border: 2px solid red;
+            height: 400px;
+            width: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .row5{
+            border: 2px solid red;
+            height: 400px;
+            display: flex;
+            align-items: center;
+        }
+        .row6{
+            border: 2px solid red;
+            height: 400px;
+            display: flex;
         }
 
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="row">
+        <p>row1</p>
+        <div class="row1">
+            <h4>Property: Display: Flex/ flex-direction: row</h4>
             <div class="box-1">box 1</div>
             <div class="box-2">box 2</div>
             <div class="box-3">box 3</div>
+        </div>
+    </div>
+    <div class="container">
+        <p>row2</p>
+        <div class="row2">
+            <h4>Property: Display: Flex/ flex-direction: column</h4>
+            <div class="box-4">box 4</div>
+            <div class="box-5">box 5</div>
+            <div class="box-6">box 6</div>
+            <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-flex-direction" style="font-size: 14px;" target="_blank">See More Properties of flex-directions Here</a>
+        </div>
+    </div>
+    <div class="container">
+        <p>row3</p>
+        <div class="row3">
+            <h4>Property: Display: Flex/ justify-content: space-between;</h4>
+            <div class="box-7">box 7</div>
+            <div class="box-8">box 8</div>
+            <div class="box-9">box 9</div>
+            <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-justify-content" style="font-size: 14px;" target="_blank">See More Properties of Justifiy content Here</a>
+        </div>
+    </div>
+    <div class="container">
+        <p>row4</p>
+        <div class="row4">
+            <div class="box-10">box 10</div>
+            <div class="box-11">box 11</div>
+            <div class="box-12">box 12</div>
+            <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-flex-wrap" style="font-size: 14px;" target="_blank">See More Properties of flex-wrap Here</a>
+        </div>
+    </div>
+    <div class="container">
+        <p>row5</p>
+        <div class="row5">
+            <div class="box-13">box 13</div>
+            <div class="box-14">box 14</div>
+            <div class="box-15">box 15</div>
+        </div>
+    </div>
+    <div class="container">
+        <p>row6</p>
+        <div class="row6">
+            <div class="box-16">box 16</div>
+            <div class="box-17">box 17</div>
+            <div class="box-18">box 18</div>
         </div>
     </div>
 </body>
